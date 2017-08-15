@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no">
+        <meta name="author" content="Enactus IGDTUW">
+
+        <title>Enactus IGDTUW</title>
+        <meta name="description" content="About Enactus IGDTUW">
+		<meta name="keywords" content="Enactus IGDTUW, Project Khidmat, Project Reap">
+
+		<meta property="og:title" content="Enactus IGDTUW">
+        <meta property="og:url" content="index.html">
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="A new way to share music">
+		<meta property="og:image" content="images/logo/enactus_logo.png">
+        <meta property="og:locale" content="en_GB">
+		<meta property="og:site_name" content="enactusigdtuw.com">
+		
+		<link rel="shortcut icon" href="images/logo/logo.png" type="image/png">
+		<link rel="stylesheet" type="text/css" href="fancybox/dist/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="vendor/videojs/dist/video-js/video-js.min.css">
+        <link rel="stylesheet" href="vendor/swiper/dist/css/swiper.min.css">
+        <link rel="stylesheet" href="vendor/outdated-browser/outdatedbrowser/outdatedbrowser.min.css">
+
+        <link rel="stylesheet" href="js/plugins/jquery.nlform/css/jquery.nlform.css">
+
+        <link rel="stylesheet" href="css/style.min.css">
+        <script src="vendor/modernizr/modernizr.js"></script>
+        <script src="vendor/devicejs/lib/device.min.js"></script>
+        <script src="vendor/Detect.js/detect.min.js"></script>
+
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+        <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','../enactus/www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-63179725-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        <!-- End Google Analytics -->
+    </head>
+
+    <body>
+
+        <div id="outdated" style="z-index:9999999999"></div>
+
+        <header>
+            
+			<img src="images/logo/enactus_logo.png" style="height:103px;max-width:150px;position:absolute;top:20px;left:20px;" alt="Enactus IGDTUW logo">
+            <div class="navigation">			
+						
+				<!--home-->				
+                <div class="group active" data-page-id="homepage-page">
+                        <ul>
+                        <li><a href="#homepage-introduction" class="active">Home
+                                <div class="progress-border"><div class="progress-line"></div></div>
+                            </a></li>
+						<li><a onclick="window.open('#/about','_self');" href="">About Us</a></li>
+                        <li><a href="#projects">Projects</a></li>
+						<li><a href="#media">Media</a></li>
+						<li><a href="#partner">Partners</a></li>
+						<li><a onclick="window.open('#/contactus','_self');" href="">Contact Us</a></li>
+						<li><a onclick="window.open('#/see-live-prototype','_self');" href="">Donate</a></li>
+                    </ul>
+                </div>
+				<!--about us-->
+                <div class="group" data-page-id="about-page">
+				<ul>
+                        <li><a href="#story" class="active">Our Story</a></li>
+                        <li><a href="#whatis">What is Enactus</a></li>
+                        <li><a href="#igdtuw">Who are we?</a></li>
+						<li><a onclick="window.open('#/meet-team','_self');" href="">Meet the Team</a></li>
+                    </ul>
+                </div>
+				<!--projects-->
+				<div class="group" data-page-id="projects-page">
+                    <ul>
+                        <li><a href="#projects" class="active"></a></li></ul>
+                </div>
+				<!--Project khidmat-->
+                <div class="group" data-page-id="khidmat-page">
+					<ul>
+                        <li><a href="#khidmat-introduction" class="active">Khidmat</a></li>
+                        <li><a href="#story">Business Model</a></li>
+                        <li><a href="#whatis">Goal and Objective</a></li>
+						<li><a href="#igdtuw">Our Vision</a></li>
+						<li><a href="#projects">Events</a></li>
+						<li><a href="#khidmat-why-music">Impact</a></li>
+                    </ul>
+                </div>
+				<!--Project Reap-->
+                <div class="group" data-page-id="reap-page">
+                    <ul>
+                        <li><a href="#reap-introduction" class="active">Reap</a></li>
+                        <li><a href="#story">Business Model</a></li>
+                        <li><a href="#whatis">Goal and Objective</a></li>
+						<li><a href="#igdtuw">Our Vision</a></li>
+						<li><a href="#projects">Events</a></li>
+						<li><a href="#reap-why-music">Impact</a></li>
+                    </ul>
+                </div>
+				<!--media-->
+                <div class="group" data-page-id="media-page">
+                    <ul>
+                        <li><a href="#media" class="active"></a></li></ul>
+                </div>
+				<!--contact us-->
+                <div class="group" data-page-id="schedule-page">
+                    <ul>
+                        <li><a href="#" class="active"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="#" class="toggle-button"><span class="lines"></span></a>
+
+            <div class="main-menu">
+                <div class="vertical-container">
+                    <div class="vertical-content">
+                        <div class="container">
+                            <ul>
+                                <li><a class="menuhover" href="#/"><span data-letters-l="HO" data-letters-r="ME">Home</span></a></li>
+                                <li><a class="menuhover" href="#/about"><span data-letters-l="ABOUT" data-letters-r="US">About Us</span></a></li>
+                                <li><a class="menuhover" href="#/khidmat"><span data-letters-l="PROJECT" data-letters-r="KHIDMAT">Project Khidmat</span></a></li>
+								<li><a class="menuhover" href="#/reap"><span data-letters-l="PROJECT" data-letters-r="REAP">Project Reap</span></a></li>
+                                <li><a class="menuhover" href="#/gallery"><span data-letters-l="GALL" data-letters-r="ERY">Gallery</span></a></li>
+								<li><a class="menuhover" href="#/feature"><span data-letters-l="FEAT" data-letters-r="URES">Features</span></a></li>
+								<li><a class="menuhover" href="#/meet-team"><span data-letters-l="MEET TH" data-letters-r="E TEAM">Meet the Team</span></a></li>
+								<li><a class="menuhover" href="#/media"><span data-letters-l="SPON" data-letters-r="SORS">Sponsors</span></a></li>
+								<li><a class="menuhover" href="#/contactus"><span data-letters-l="CONTACT" data-letters-r="US">Contact Us</span></a></li>
+								<li><a class="menuhover" href="#/see-live-prototype"><span data-letters-l="DON" data-letters-r="ATE">Donate</span></a></li>
+								<li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+        </header>
+		<div id="drawer">
+		<a href="http://enactus.org" target="_blank" style="position:absolute;bottom:13px;left:5%;letter-spacing:1px;display:block;text-align:center;font-size:18px;text-transform:uppercase;"  id="enactus" ><img src="images/logo/world.png" style="height:20px;max-width:66px;">Enactus Worldwide</a>
+		
+		<a href="https://www.facebook.com/EnactusIGDTUW/" target="_blank" style="position:absolute;bottom:15px;right:17%;z-index:9999;" id="fb" ><img src="images/logo/facebook-logo-button.png" style="height:30px;width:30px;"></a>
+		
+		<a href="https://twitter.com/enactusigdtuw?lang=en" target="_blank" style="position:absolute;bottom:12px;right:14%;z-index:9999;" id="twi"><img src="images/logo/twitter-logo-silhouette-white.png" style="height:33px;width:33px;"></a>
+		
+		<a href="https://www.instagram.com/enactus.igdtuw/" target="_blank" style="position:absolute;bottom:13px;right:11%;z-index:9999;" id="insta"><img src="images/logo/instagram-logo.png" style="height:31px;width:31px;"></a>
+		
+		<a href="https://in.linkedin.com/in/enactus-igdtuw-765059108" target="_blank" style="position:absolute;bottom:13px;right:8%;z-index:9999;" id="linkedin"><img src="images/logo/linkedin-logo-white.png" style="height:30px;width:30px;"></a>		
+		
+		<a href="https://www.youtube.com/channel/UCfdT16dHbaPEvNmXXXmqsUQ" target="_blank" style="position:absolute;bottom:17px;right:5%;z-index:9999;" id="utube"><img src="images/logo/youtube.png" style="height:20px;width:30px;"></a>
+			</div>
+        <!--<div class="loader"></div>-->
+
+        <div class="main-container"></div>
+
+        <script type="text/javascript">
+            var MTUserId='c971a579-ca91-4cf9-8816-e93c54b706dd';
+            var MTFontIds = new Array();
+
+            MTFontIds.push("1437496"); // Avenir® Next W04 Regular
+            MTFontIds.push("1437556"); // Avenir® Next W04 Bold
+            (function() {
+            var mtTracking = document.createElement('script');
+            mtTracking.type='text/javascript';
+            mtTracking.async='true';
+            mtTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/lt/trackingCode.js';
+
+            (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(mtTracking);
+            })();
+        </script>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="js/vendors.min.js"></script>
+        <script src="js/plugins.min.js"></script>
+        <script src="js/controllers.min.js"></script>
+        <script src="js/app.min.js"></script>
+		<script src="fancybox/dist/jquery.fancybox.min.js"></script>
+		<script type="text/javascript">
+	$("[data-fancybox]").fancybox({
+		selector : '[data-fancybox="images"]',
+  loop     : true
+	});
+</script>
+    </body>
+
+</html>
