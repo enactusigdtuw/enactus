@@ -4,3 +4,7 @@ finalise the about section - shruti
 correct the look-images-content of the current website for making it the final - sonalika
 create contact-us - shruti
 see for the url
+put in vid-background---------- otherwise no bg visible in mobile
+keep the hieght of icons in %
+change website to be orange colored
+ 

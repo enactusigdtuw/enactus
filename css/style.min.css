@@ -4232,7 +4232,7 @@ position:relative
 }
 
 #meet-team-page,#feature-page,#gallery-page{
-color:#320d7f;
+color:#ff9933;
 background-color:#fff;
 border:12px solid #e6e6e6;
 overflow-y:scroll;
@@ -4265,7 +4265,7 @@ margin-bottom:26px
 color:#4d4d4d
 }
 #meet-team-page .team-container .team-member p strong,#feature-page .feature-container .feature-member p strong{
-color:#320d7f
+color:#ff9933
 }
 #meet-team-page .team-container .team-member .more .more-button,#feature-page .feature-container .feature-member .more .more-button{
 -webkit-transition:all .3s cubic-bezier(.7,0,.3,1);
@@ -4314,10 +4314,10 @@ min-height:300px
 #meet-team-page .map-container .map-title,#feature-page .map-container .map-title{
 text-transform:uppercase;
 font-size:32px;
-color:#320d7f
+color:#ff9933
 }
 #meet-team-page .map-container a,#feature-page .map-container a{
-color:#320d7f
+color:#ff9933
 }
 #meet-team-page .map-container .map,#feature-page .map-container .map{
 background:#fff
@@ -4340,7 +4340,7 @@ padding-right:50px
 body,html{
 height:100%;
 overflow:hidden;
-background-color:#320d7f
+background-color:#ff9933
 }
 .main-container{
 height:100%;
@@ -4669,7 +4669,7 @@ content:'';
 margin-top:-8px
 }
 header.invert .navigation a:after,header.invert .toggle-button .lines,header.invert .toggle-button .lines:after,header.invert .toggle-button .lines:before,html.no-touch header.invert .toggle-button:hover .lines,html.no-touch header.invert .toggle-button:hover .lines:after,html.no-touch header.invert .toggle-button:hover .lines:before{
-background-color:#320d7f
+background-color:#ff9933
 }
 header .main-menu ul li:last-child{
 position:absolute;
@@ -4692,7 +4692,7 @@ filter:alpha(opacity=100);
 opacity:1
 }
 header.invert .navigation a{
-color:#320d7f
+color:#ff9933
 }
 header.invert .navigation a .progress-border{
 background-color:#a580f2
@@ -4701,7 +4701,7 @@ background-color:#a580f2
 background-color:#737373
 }
 header.invert .navigation a .progress-border .progress-line{
-background-color:#320d7f
+background-color:#ff9933
 }
 @media (max-width:991px){
 header .navigation{
@@ -4886,9 +4886,9 @@ color:#cc3300!important
 -o-transition:all .4s cubic-bezier(.7,0,.3,1);
 transition:all .4s cubic-bezier(.7,0,.3,1);
 width:260px;
-height:120px;
+height:100px;
 position:absolute;
-top:-20px;
+top:-6px;
 z-index:-1;
 border-width:12px;
 border-style: inset none none ridge;
@@ -5496,7 +5496,7 @@ color:#937DB8;
 white-space:nowrap
 }
 .nl-field ul li.nl-dd-checked{
-color:#320d7f
+color:#ff9933
 }
 .nl-field-error .nl-field-toggle{
 -webkit-transition:all .2s ease;
@@ -5707,35 +5707,35 @@ color:#7db025
 }
 a#fb>img:hover{
 content: url(../images/logo/face.png);
-  height: 30px;
+  max-height: 5%;
   width: 30px;
   display: block;
   transition: 0.5s;
 }
 a#twi>img:hover{
 content: url(../images/logo/twitter-logo-silhouette-blue.png);
-  height: 33px;
+  max-height: 5%;
   width: 33px;
   display: block;
   transition: 0.5s;
 }
 a#insta>img:hover{
 content: url(../images/logo/instagram.png);
-  height: 31px;
+  max-height: 5%;
   width: 31px;
   display: block;
   transition: 0.5s;
 }
 a#linkedin>img:hover{
 content: url(../images/logo/linkedin.png);
-  height: 30px;
+  max-height: 5%;
   width: 30px;
   display: block;
   transition: 0.5s;
 }
 a#utube>img:hover{
 content: url(../images/logo/utube.png);
-  height: 20px;
+  max-height: 5%;
   width: 30px;
   display: block;
   transition: 0.5s;
@@ -5768,7 +5768,7 @@ a#utube>img{
 }
 a#enactus{
   content: url(../images/logo/orange-world-map.png);
-  height:25px;max-width:66px;
+  height:15px;max-width:56px;
 }
 
 }
