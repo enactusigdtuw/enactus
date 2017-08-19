@@ -57,7 +57,8 @@
                     <p>business model of khidmat............Feed is an intelligent property rights and payments platform, using intelligent software and digital security that goes well beyond 'military-grade' to give users true ownership of their data and IP.</p>
                     <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
                 </div>
-                <div class="background"></div>
+                <div class="background" style="background-image:url(images/bg/10-dark.jpg);"></div>
+				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>		
             </div>
 			<!--goal and objective-->
 		    <div id="whatis" class="cineslider-slide">
@@ -69,7 +70,8 @@
                     <p>goal and objective of khidmat............Feed is an intelligent property rights and payments platform, using intelligent software and digital security that goes well beyond 'military-grade' to give users true ownership of their data and IP.</p>
                     <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
                 </div>
-                <div class="background"></div>
+                <div class="background" style="background-image:url(images/bg/30-dark.jpg);"></div>
+				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>		
             </div>
 			<!--vision-->
 			<div id="igdtuw" class="cineslider-slide">
@@ -81,7 +83,8 @@
                     <p>our vision of khidmat...Feed is an intelligent property rights and payments platform, using intelligent software and digital security that goes well beyond 'military-grade' to give users true ownership of their data and IP.</p>
                     <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
                 </div>
-                <div class="background"></div>
+                <div class="background" style="background-image:url(images/bg/36-light.jpg);"></div>
+				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>		
             </div>
 			<!--events-->
 			<div id="projects" class="cineslider-slide">
@@ -120,58 +123,19 @@
                         </div>
                     </div>					
                 </div>
-            </div>
-			
-            <div id="khidmat-technology" class="cineslider-slide">
-                <div class="background"></div>
-                <div class="video-popup">
-                    <div class="video-popup-wrapper">
-                        <div class="content">
-                            <a href="#" class="video-popup-play">
-                                <i class="fa fa-play"></i>
-                            </a>
-                            <p>Introducing Feed</p>
-                        </div>
-                    </div>
-
-                    <div class="video-popup-overlay">
-                        <video class="video-js vjs-default-skin"
-                            controls preload="none" width="100%" height="100%" data-setup='{"example_option":true}'>
-							<source src="videos/intro.mp4" type="video/mp4" />
-                             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-                        </video>
-                    </div>
-
-                    <a href="#" class="video-popup-close"></a>
+				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>		
+            </div>			
+            <div id="impact" class="cineslider-slide">
+                <div class="border" data-position="top"></div>
+                <div class="border" data-position="right"></div>
+                <div class="border" data-position="left"></div>
+                <div class="border" data-position="bottom"></div>
+                <div class="intro-paragraph">
+                    <p>impact of khidmat..Feed is an intelligent property rights and payments platform, using intelligent software and digital security that goes well beyond 'military-grade' to give users true ownership of their data and IP.</p>
+                    <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
                 </div>
-                </div>
-
-            
-            <div id="khidmat-why-music" class="cineslider-slide">
-                <div class="background"></div>
-                <div class="video-popup">
-                    <div class="video-popup-wrapper">
-                        <div class="content">
-                            <a href="#" class="video-popup-play">
-                                <i class="fa fa-play"></i>
-                            </a>
-                            <p>Why start with music?</p>
-                        </div>
-                    </div>
-
-                    <div class="video-popup-overlay">
-                        <video class="video-js vjs-default-skin"
-                            controls preload="none" width="100%" height="100%" data-setup='{"example_option":true}'>
-							<source src="videos/intro.mp4" type="video/mp4" />
-                             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-                        </video>
-                    </div>
-
-                    <a href="#" class="video-popup-close"></a>
-                </div>               
+                <div class="background" style="background-image:url(images/bg/22-dark.jpg);"></div>	
             </div>
-
-            
         </div>
     </div>
 </div>

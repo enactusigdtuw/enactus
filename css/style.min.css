@@ -4117,10 +4117,10 @@ font-family:sans-serif
 }
 
 }
-#homepage-introduction,#story,#whatis,#igdtuw,#khidmat-introduction,#reap-introduction{
+#homepage-introduction,#story,#whatis,#igdtuw,#khidmat-introduction,#reap-introduction,#impact{
 overflow:hidden
 }
-#story .intro-paragraph,#whatis .intro-paragraph,#igdtuw .intro-paragraph,#khidmat-introduction .intro-paragraph,#reap-introduction .intro-paragraph,#partner .intro-paragraph{
+#story .intro-paragraph,#whatis .intro-paragraph,#igdtuw .intro-paragraph,#khidmat-introduction .intro-paragraph,#reap-introduction .intro-paragraph,#partner .intro-paragraph,#impact .intro-paragraph{
 position:absolute;
 font-size:20px;
 bottom:10px;
@@ -4129,9 +4129,9 @@ padding:25px;
 color:#fff;
 width:1000px;
 display:block;
-z-index:100000000000;
+z-index:40;
 }
-#homepage-introduction .intro-paragraph p:last-child,#story .intro-paragraph p:last-child,#whatis .intro-paragraph p:last-child,#igdtuw .intro-paragraph p:last-child,#khidmat-introduction .intro-paragraph p:last-child,#reap-introduction .intro-paragraph p:last-child,#partner .intro-paragraph p:last-child{
+#homepage-introduction .intro-paragraph p:last-child,#impact .intro-paragraph p:last-child,#story .intro-paragraph p:last-child,#whatis .intro-paragraph p:last-child,#igdtuw .intro-paragraph p:last-child,#khidmat-introduction .intro-paragraph p:last-child,#reap-introduction .intro-paragraph p:last-child,#partner .intro-paragraph p:last-child{
 margin-bottom:0
 }
 @media (max-width:991px){
@@ -4202,24 +4202,23 @@ font-size:30px
 }
 
 }
-#partner,#whatis,#igdtuw{
+#partner,#whatis,#igdtuw,#impact,#overview{
 overflow:hidden;
 background-color:#000
 }
-#partner .background,#whatis .background,#igdtuw .background{
+#partner .background,#impact .background,#whatis .background,#igdtuw .background,#overview .background,#story .background{
 width:100%;
 height:100%;
 transition:all 36s ease-out;
 background-size:cover;
 background-position:50% 50%;
-background-image:url(../images/bg/pres.jpg)
 }
-#partner .background,#whatis .background,#igdtuw .background{
+#partner .background,#whatis .background,#igdtuw .background,#impact .background,#overview .background,#story .background{
 -webkit-transition:all 36s ease-out;
 -moz-transition:all 36s ease-out;
 -o-transition:all 36s ease-out
 }
-#partner.cineslider-slide-active .background,#whatis.cineslider-slide-active .background,#igdtuw.cineslider-slide-active .background{
+#partner.cineslider-slide-active .background,#whatis.cineslider-slide-active .background,#igdtuw.cineslider-slide-active .background,#impact.cineslider-slide-active .background,#overview.cineslider-slide-active .background,#story.cineslider-slide-active .background{
 -webkit-transform:scale(1.4);
 -moz-transform:scale(1.4);
 -o-transform:scale(1.4);
@@ -4703,6 +4702,13 @@ background-color:#737373
 header.invert .navigation a .progress-border .progress-line{
 background-color:#ff9933
 }
+table#full{
+	display:block;
+}
+table#half{
+	display:none;
+}
+
 @media (max-width:991px){
 header .navigation{
 font-size:12px
@@ -4710,7 +4716,12 @@ font-size:12px
 header .navigation ul li{
 padding:0 10px
 }
-
+table#full{
+	display:none;
+}
+table#half{
+	display:block;
+}
 }
 @media (max-width:767px){
 header .logo,header .logo:after,header .logo:before,header .toggle-button{
@@ -4733,7 +4744,9 @@ font-size:20px;
 width:100%;
 text-align:center;
 }
-
+header .main-menu ul li{
+margin-bottom:0px
+}
 }
 .cineslider-container,.loader,.page{
 overflow:hidden;
@@ -4872,7 +4885,7 @@ position:relative;
 display:inline-block;
 font-size:32px;
 text-transform:uppercase;
-color:#ffff66;
+color:#ffff00;
 line-height:1.1;
 padding:18px;
 z-index:1
@@ -4948,14 +4961,26 @@ text-align:center;
 transition:all 36s ease-out;
 background-position:50% 50%;
 }
-.splitter .splitter-item#khidmat,.splitter3 .splitter-item#a,.splitter4 .splitter-item#a{
-background-image:url(../images/bg/intro.jpg);
+.splitter .splitter-item#khidmat{
+background-image:url(../images/bg/34-dark.jpg);
 }
-.splitter .splitter-item#reap,.splitter3 .splitter-item#b,.splitter4 .splitter-item#b{
-	background-image:url(../images/bg/music.jpg);
+.splitter .splitter-item#reap{
+background-image:url(../images/bg/18-dark.jpg);
+}
+.splitter .splitter-item#gallery{
+background-image:url(../images/bg/17-dark.jpg);
+}
+.splitter .splitter-item#features{
+background-image:url(../images/bg/43-dark.jpeg);
+}
+.splitter3 .splitter-item#a,.splitter4 .splitter-item#a{
+background-image:url(../images/bg/34.jpg);
+}
+.splitter3 .splitter-item#b,.splitter4 .splitter-item#b{
+	background-image:url(../images/bg/34.jpg);
 }
 .splitter3 .splitter-item#c,.splitter4 .splitter-item#c{
-	background-image:url(../images/bg/pres.jpg);
+	background-image:url(../images/bg/34.jpg);
 }
 .splitter .splitter-item.active:first-child,.splitter3 .splitter-item.active:first-child,.splitter4 .splitter-item.active:first-child{
 background-color:#cc3300!important
@@ -4987,8 +5012,10 @@ font-size:22px;
 height:80px
 }
 .splitter .splitter-button:before,.splitter3 .splitter-button:before,.splitter4 .splitter-button:before{
-height:94px;
-border-width:8px
+height:75px;
+border-width:8px;
+position: absolute;
+top: 0px;
 }
 .splitter .splitter-item:first-child .vertical-content,.splitter3 .splitter-item:first-child .vertical-content,.splitter4 .splitter-item:first-child .vertical-content{
 vertical-align:bottom;
@@ -5151,7 +5178,7 @@ left:50%;
 margin-left:-340px;
 margin-top:-150px;
 z-index:2;
-border:12px solid #35017F;
+border:12px solid #ff3300;
 background-color:rgba(0,0,0,.4)
 }
 .video-popup .video-popup-wrapper{
@@ -5236,7 +5263,7 @@ margin-left:6px;
 line-height:42px
 }
 html.no-touch .video-popup .video-popup-play:hover{
-color:#35017F;
+color:#ff3300;
 background-color:#fff;
 text-decoration:none
 }
@@ -5248,14 +5275,14 @@ animation-iteration-count:1;
 box-shadow:none
 }
 .video-popup .video-popup-play.invert{
-color:#35017F
+color:#ff3300
 }
 .video-popup .video-popup-play.invert:after,.video-popup .video-popup-play.invert:before{
 box-shadow:0 0 0 2px rgba(53,1,127,.5)
 }
 html.no-touch .video-popup .video-popup-play.invert:hover{
 color:#fff;
-background-color:#35017F
+background-color:#ff3300
 }
 .video-popup .video-popup-close{
 width:26px;
@@ -5266,9 +5293,9 @@ height:26px
 -moz-transition:all .3s cubic-bezier(.7,0,.3,1);
 -o-transition:all .3s cubic-bezier(.7,0,.3,1);
 transition:all .3s cubic-bezier(.7,0,.3,1);
--webkit-box-shadow:0 0 2px #35017f;
--moz-box-shadow:0 0 2px #35017f;
-box-shadow:0 0 2px #35017f;
+-webkit-box-shadow:0 0 2px #ff3300;
+-moz-box-shadow:0 0 2px #ff3300;
+box-shadow:0 0 2px #ff3300;
 position:absolute;
 top:0;
 left:0;
@@ -5307,7 +5334,7 @@ html.no-touch .video-popup .video-popup-close:hover:after{
 transform:translateY(0)rotate(35deg)
 }
 .video-popup .vjs-control-bar .vjs-play-progress,.video-popup .vjs-control-bar .vjs-volume-level{
-background:#35017F
+background:#ff3300
 }
 @media (max-width:991px){
 .video-popup{
@@ -5357,6 +5384,13 @@ transform:translate3d(0,150%,0)
 }
 
 }
+.scroll-down, .scroll-down .icon, .scroll-down span{
+display:none;
+}
+@media (max-width:991px){
+.scroll-down, .scroll-down .icon, .scroll-down span{
+display:block;
+}}
 .scroll-down{
 position:absolute;
 width:150px;
@@ -5364,7 +5398,6 @@ bottom:10%;
 left:50%;
 margin-left:-75px;
 z-index:50;
-display:block;
 text-align:center;
 font-size:12px;
 -webkit-font-smoothing:antialiased
@@ -5376,7 +5409,6 @@ font-size:12px;
 transition:all .3s ease;
 width:26px;
 height:44px;
-display:block;
 border-radius:13px;
 border:2px solid #b3b3b3;
 margin:0 auto
@@ -5411,13 +5443,13 @@ letter-spacing:3px;
 top:-24px
 }
 .scroll-down.invert .icon{
-border-color:#35017f
+border-color:#ff3300
 }
 .scroll-down.invert .icon:before{
 background-color:#000
 }
 .scroll-down.invert span{
-color:#35017f
+color:#ff3300
 }
 html.no-touch .scroll-down:hover .icon{
 background-color:#fff;
@@ -5432,8 +5464,8 @@ opacity:0;
 letter-spacing:5px
 }
 html.no-touch .scroll-down.invert:hover .icon{
-background-color:#35017f;
-border-color:#35017f
+background-color:#ff3300;
+border-color:#ff3300
 }
 html.no-touch .scroll-down.invert:hover .icon:before{
 background-color:#b581fe
