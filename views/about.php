@@ -11,7 +11,7 @@
                     <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
                 </div>
                 <div class="videobg-container"></div>
-				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>
+				<a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>
             </div>
 		 
 		    <div id="whatis" class="cineslider-slide">
@@ -24,7 +24,7 @@
                     <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
                 </div>
                 <div class="background" style="background-image:url(images/bg/4-light.jpg);"></div>
-				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>
+				<a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>
             </div>
 			
 			<div id="igdtuw" class="cineslider-slide">
