@@ -41,7 +41,7 @@
                     </div>
                 </div>
 
-                <a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>
+                <a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>
             </div>
 			
 			
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>
+				<a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>
             </div>
 			<div id="media" class="cineslider-slide">
                 <div class="border" data-position="top"></div>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>
+				<a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>
             </div>
 					
 			<div id="partner" class="cineslider-slide">
@@ -104,7 +104,7 @@
                     <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
                 </div>
                 <div class="background" style="background-image:url(images/bg/29-dark.jpg);"></div> 
-				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>				
+				<a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>				
             </div>   
 			
 			<div id="overview" class="cineslider-slide">
