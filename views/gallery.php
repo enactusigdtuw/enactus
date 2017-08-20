@@ -15,7 +15,7 @@
 						<td style="height:210px;width:210px;border: 5px solid #fff;"><a href="images/bg/7.jpg" data-fancybox="images" ><img src="images/bg/7.jpg" style="width:100%;height:100%;background-size:cover;background-position:50% 50%;"></a></td>
 						<td style="height:210px;width:210px;border: 5px solid #fff;"><a href="images/bg/8.jpg" data-fancybox="images" ><img src="images/bg/8.jpg" style="width:100%;height:100%;background-size:cover;background-position:50% 50%;"></a></td>
 						<td style="height:210px;width:210px;border: 5px solid #fff;"><a href="images/bg/9.jpg" data-fancybox="images" ><img src="images/bg/9.jpg" style="width:100%;height:100%;background-size:cover;background-position:50% 50%;"></a></td>
-						<td style="height:210px;width:210px;border: 5px solid #fff;"><a href="images/bg/10.jpg" data-fancybox="images" ><img src="images/bg/10.jpg" style="width:100%;height:100%;background-size:cover;background-position:50% 50%;"></a></td>
+						<td style="height:210px;width:210px;border: 5px solid #fff;"><a href="images/bg/10.JPG" data-fancybox="images" ><img src="images/bg/10.JPG" style="width:100%;height:100%;background-size:cover;background-position:50% 50%;"></a></td>
 						<td style="height:210px;width:210px;border: 5px solid #fff;"><a href="images/bg/30-dark.jpg" data-fancybox="images" ><img src="images/bg/30-dark.jpg" style="width:100%;height:100%;background-size:cover;background-position:50% 50%;"></a></td>
 					</tr>
 					<tr>
