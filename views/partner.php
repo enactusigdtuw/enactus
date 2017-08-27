@@ -8,12 +8,12 @@
                 <div class="border" data-position="bottom"></div>
 				<div class="intro-paragraph">
 				<h1 style="color:#ffff00;">#Our Partners</h1>
-                    <p>partners or sponsors of enactus igdtuw............Feed is an intelligent property rights and payments platform, using intelligent software and digital security that goes well beyond 'military-grade' to give users true ownership of their data and IP.</p>
-                    <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
+				<p style="color:#fff;font-weight:900px;font-size:35px;">Sahyog - Care for You</span></p>
+				<img src="images/logo/sahyog.jpg">
+				    <p>Sahyog care is a registered voluntary NGO which has been working for the empowerment of marginalized sections of society since 2002. <br>Sahyog is all about working in cooperation with various stakeholders to bring about difference in the lives of underprivileged, deprived women, children and their families and communities.</p>
                 </div>
                 <div class="background" style="background-image:url(images/bg/29-dark.jpg);"></div> 
-				<a href="#" class="scroll-down"><i class="icon"></i><span>scroll down</span></a>				
-            </div>
+            </div>   
          </div>
     </div>
 </div>
