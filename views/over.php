@@ -10,7 +10,7 @@
                             <a href="#" class="video-popup-play">
                                 <i class="fa fa-play"></i>
                             </a>
-                            <p>What is Enactus IGDTUW?</p>
+                            <p>Get to <span style="color:yellow">#KnowUs</span></p>
                         </div>
                     </div>
 
