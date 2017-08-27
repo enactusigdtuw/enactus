@@ -4120,25 +4120,36 @@ font-family:sans-serif
 #homepage-introduction,#story,#whatis,#igdtuw,#khidmat-introduction,#reap-introduction,#impact{
 overflow:hidden
 }
-#story .intro-paragraph,#whatis .intro-paragraph,#igdtuw .intro-paragraph,#khidmat-introduction .intro-paragraph,#reap-introduction .intro-paragraph,#partner .intro-paragraph,#impact .intro-paragraph{
+#homepage-introduction .intro-paragraph,#story .intro-paragraph,#whatis .intro-paragraph,#igdtuw .intro-paragraph,#khidmat-introduction .intro-paragraph,#reap-introduction .intro-paragraph,#partner .intro-paragraph,#impact .intro-paragraph{
 position:absolute;
+font-weight: bold;
 font-size:20px;
-bottom:10px;
-left:10px;
+bottom:40px;
+left:20px;
 padding:25px;
-color:#fff;
-width:1000px;
+width:1200px;
 display:block;
 z-index:40;
+color:white;
 }
-#homepage-introduction .intro-paragraph p:last-child,#impact .intro-paragraph p:last-child,#story .intro-paragraph p:last-child,#whatis .intro-paragraph p:last-child,#igdtuw .intro-paragraph p:last-child,#khidmat-introduction .intro-paragraph p:last-child,#reap-introduction .intro-paragraph p:last-child,#partner .intro-paragraph p:last-child{
-margin-bottom:0
+#homepage-introduction .intro-paragraph h1,#story .intro-paragraph h1,#whatis .intro-paragraph h1,#igdtuw .intro-paragraph h1,#khidmat-introduction .intro-paragraph h1,#reap-introduction .intro-paragraph h1,#partner .intro-paragraph h1,#impact .intro-paragraph h1{
+font-weight: 900px;
+font-size:50px;
 }
 @media (max-width:991px){
-#homepage-introduction .intro-paragraph{
-display:none!important
+#homepage-introduction .intro-paragraph,#story .intro-paragraph,#whatis .intro-paragraph,#igdtuw .intro-paragraph,#khidmat-introduction .intro-paragraph,#reap-introduction .intro-paragraph,#partner .intro-paragraph,#impact .intro-paragraph{
+font-weight: bold;
+font-size:15px;
+bottom:11%;
+left:0px;
+padding:25px;
+width:100%;
+max-height:90%;
+max-width:100%;
 }
-
+#about-page #story .intro-paragraph h1 font:before{
+	content:'\A';
+}
 }
 #homepage-introduction .starwars-container,#story .starwars-container,#whatis .starwars-container,#igdtuw .starwars-container,#khidmat-introduction .starwars-container,#reap-introduction .starwars-container{
 position:relative;
@@ -5384,11 +5395,14 @@ transform:translate3d(0,150%,0)
 }
 
 }
-.scroll-down, .scroll-down .icon, .scroll-down span{
-display:none;
+.scroll-down{
+	position:absolute;bottom:10%;right:4%;z-index:50;display:none;
+}
+.scroll-down>img{
+	content: url(../images/logo/down.png);height:55px;width:55px;display:none;
 }
 @media (max-width:991px){
-.scroll-down, .scroll-down .icon, .scroll-down span{
+.scroll-down,.scroll-down>img{
 display:block;
 }}
 a.scroll-down>img:hover{
