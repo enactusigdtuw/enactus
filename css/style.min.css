@@ -4152,7 +4152,7 @@ max-width:100%;
 }
 }
 @media (max-width:771px){
-#homepage-introduction .intro-paragraph,#story .intro-paragraph,#whatis .intro-paragraph,#igdtuw .intro-paragraph,#khidmat-introduction .intro-paragraph,#reap-introduction .intro-paragraph,#partner .intro-paragraph,#impact .intro-paragraph{
+#about-page #whatis .intro-paragraph,#reap-page #story .intro-paragraph{
 font-weight: bold;
 font-size:9px;
 bottom:11%;
