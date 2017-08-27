@@ -7,11 +7,27 @@
                 <div class="border" data-position="left"></div>
                 <div class="border" data-position="bottom"></div>
                 <div class="intro-paragraph">
-				<h1 style="color:white"><font color="red">EN</font>trepreneurial.<font color="red">ACT</font>ion.<font color="red">US</font></h1>
-                    <p style="color:#ff3300;">Enactus is an organisation committed to Entrepreneurial Action for sustainable development.<br>
+				<h1 style="color:#ff3300;">ENACTUS</h1>
+                    <p style="color:#fff;">Enactus is an organisation committed to Entrepreneurial Action for sustainable development.<br>
 					It is aimed at resolving the problems in society by establishing a business model run by the marginalized section of society.</p>
                 </div>
                 <div class="videobg-container"></div>
+				 <div class="starwars-container">
+                    <div class="starwars-wrapper">
+                        <p><span style="color:red">EN</span>trepreneurial</p>
+<p>Having the perspective </p><p>to see an opportunity</p><p>and the talent </p><p>to create value from that</p><p> opportunity.</p>
+                        <p><br><br></p>
+						<p><br><br></p>
+						<p><span style="color:red">ACT</span>ion</p>
+<p>The willingness </p><p>to do something</p><p> and the commitment</p><p> to see it through</p><p> even when the outcome </p><p>is not guaranteed.</p>
+                        <p><br><br></p>
+						<p><br><br></p>
+						<p><span style="color:red">US</span></p>
+<p>A group of people </p><p>who see themselves</p><p> connected in some important way;</p><p> individuals that are part </p><p>of a greater whole.</p>
+                        <p><br><br></p>
+                        <p style="white-space: normal;color:red"><strong>EN.ACT.US</strong></p>
+                    </div>
+                </div>
 				 <a href="#" class="scroll-down"><img/></a>
             </div>		 
 		    
