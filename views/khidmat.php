@@ -13,7 +13,7 @@
                 <div class="videobg-container"></div>
                 <div class="starwars-container">
                     <div class="starwars-wrapper">
-                        <p>  खाना हो तो,    </p>
+                        <p>  खाना हो तो   </p>
                         <p> KHIDMAT   </p>
                         <p><br><br></p>
 						<p style="white-space: normal"><strong>KHIDMAT</strong></p>
