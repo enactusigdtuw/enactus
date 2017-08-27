@@ -6,41 +6,21 @@
                 <div class="border" data-position="right"></div>
                 <div class="border" data-position="left"></div>
                 <div class="border" data-position="bottom"></div>
+				<div class="intro-paragraph">
+				<h1 style="color:#ffff00;">Enactus IGDTUW</h1>
+                    <p>Enabling progress through Entrepreneurial action</p>
+                </div>
                 <div class="videobg-container"></div>
                 <div class="starwars-container">
                     <div class="starwars-wrapper">
-                        <p>When you want something, </p>
-                        <p>all the universe conspires </p>
-                        <p>in helping you to achieve it.</p>
-                        <p><strong><i><small>Paulo Coelho</small></i></strong></p>
+                        <p>LIVE</p>
+                        <p>to CREATE </p>
+                        <p>what </p>
+						<p>OUTLIVES you </p>
                         <p><br><br></p>
-                        <p><br><br></p>
-                        <p>Feed is that conspiracy:</p>
-                        <p>the conspiracy of trust.</p>
-                        <p><br><br></p>
-                        <p><br><br></p>
-                        <p>Trust is the single</p>
-                        <p>most important ingredient </p>
-                        <p>missing from digital relationships.</p>
-                        <p><br><br></p>
-                        <p><br><br></p>
-                        <p>Boston Consulting Group </p>
-                        <p>and the World Economic Forum </p>
-                        <p>forecast the digital economy </p>
-                        <p>to be worth between </p>
-                        <p><strong>1.5 and 2.5 trillion dollars</strong></p>
-                        <p><strong>by 2016.</strong></p>
-                        <p><br><br></p>
-                        <p><br><br></p>
-                        <p>The difference </p>
-                        <p>between those numbers </p>
-                        <p>is trust.</p>
-                        <p><br><br></p>
-                        <p><br><br></p>
-                        <p style="white-space: normal">Feed is a digital mechanism of <strong>trust</strong></p>
+                        <p style="white-space: normal"><strong>ENACTUS IGDTUW</strong></p>
                     </div>
                 </div>
-
                 <a href="#" class="scroll-down"><img/></a>
             </div>
 			
@@ -101,8 +81,9 @@
                 <div class="border" data-position="bottom"></div>
 				<div class="intro-paragraph">
 				<h1 style="color:#ffff00;">#Our Partners</h1>
-                    <p>partners or sponsors of enactus igdtuw............Feed is an intelligent property rights and payments platform, using intelligent software and digital security that goes well beyond 'military-grade' to give users true ownership of their data and IP.</p>
-                    <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
+				<p style="color:#fff;font-weight:900px;font-size:35px;">Sahyog - Care for You</span></p>
+				<img src="images/logo/sahyog.jpg">
+				    <p>Sahyog care is a registered voluntary NGO which has been working for the empowerment of marginalized sections of society since 2002. <br>Sahyog is all about working in cooperation with various stakeholders to bring about difference in the lives of underprivileged, deprived women, children and their families and communities.</p>
                 </div>
                 <div class="background" style="background-image:url(images/bg/29-dark.jpg);"></div> 
 				<a href="#" class="scroll-down"><img/></a>				
@@ -116,7 +97,7 @@
                             <a href="#" class="video-popup-play">
                                 <i class="fa fa-play"></i>
                             </a>
-                            <p>What is Enactus IGDTUW?</p>
+                            <p>Get to <span style="color:yellow">#KnowUs</span></p>
                         </div>
                     </div>
 
