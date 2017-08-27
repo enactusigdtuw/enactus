@@ -41,7 +41,7 @@
                     </div>
                 </div>
 
-                <a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>
+                <a href="#" class="scroll-down"><img/></a>
             </div>
 			
 			
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-				<a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>
+				<a href="#" class="scroll-down"><img/></a>
             </div>
 			<div id="media" class="cineslider-slide">
                 <div class="border" data-position="top"></div>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-				<a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>
+				<a href="#" class="scroll-down"><img/></a>
             </div>
 					
 			<div id="partner" class="cineslider-slide">
@@ -100,11 +100,12 @@
                 <div class="border" data-position="left"></div>
                 <div class="border" data-position="bottom"></div>
 				<div class="intro-paragraph">
+				<h1 style="color:#ffff00;">#Our Partners</h1>
                     <p>partners or sponsors of enactus igdtuw............Feed is an intelligent property rights and payments platform, using intelligent software and digital security that goes well beyond 'military-grade' to give users true ownership of their data and IP.</p>
                     <p>Feed facilitates trusted exchanges of users' progressively-perfecting data assets with businesses, researchers, and governments in a <b>trusted</b>, audited, and independently verifiable manner; on their own terms and conditions.</p>
                 </div>
                 <div class="background" style="background-image:url(images/bg/29-dark.jpg);"></div> 
-				<a href="#" class="scroll-down" style="position:absolute;bottom:15%;left:50%;z-index:50;"><img src="images/logo/down.png" style="height:40px;width:40px;"></a>				
+				<a href="#" class="scroll-down"><img/></a>				
             </div>   
 			
 			<div id="overview" class="cineslider-slide">
