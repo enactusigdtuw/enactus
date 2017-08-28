@@ -19,8 +19,7 @@
                         <p style="white-space: normal"><strong>ENACTUS IGDTUW</strong></p>
                     </div>
                 </div>
-				<a href="#" style="position:absolute;bottom:50px;right:50px;z-index:9999;" id="fb" ><img src="images/logo/facebook-logo-button.png" style="height:20px;width:20px;"></a>
-                <a href="#" class="scroll-down"><img/></a>
+				<a href="#" class="scroll-down"><img/></a>
             </div>
 			
 			
