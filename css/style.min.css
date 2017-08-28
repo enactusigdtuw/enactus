@@ -29,7 +29,7 @@ display:none
 .video-popup .video-popup-overlay .video-js .vjs-big-play-button,.videobg-container .videojs .vjs-loading-spinner{
 display:none!important
 }
-.splitter,.splitter3,.splitter4{
+.splitter{
 position:relative;
 width:100%;
 height:100%
@@ -41,43 +41,15 @@ height:100%;
 top:0;
 z-index:1
 }
-.splitter3 .splitter-item{
-position:absolute;
-width:33.333%;
-height:100%;
-top:0;
-left:0;
-z-index:1
-}
-.splitter4 .splitter-item{
-position:absolute;
-width:25%;
-height:100%;
-top:0;
-left:0;
-z-index:1
-}
-.splitter .splitter-item:first-child,.splitter3 .splitter-item:first-child,.splitter4 .splitter-item:first-child{
+.splitter .splitter-item:first-child{
 left:0;
 right:auto;
 }
-.splitter3 .splitter-item:nth-child(2){
-left:33.333%;
-right:auto;
-}
-.splitter4 .splitter-item:nth-child(2){
-left:25%;
-right:auto;
-}
-.splitter4 .splitter-item:nth-child(3){
-left:auto;
-right:25%;
-}
-.splitter .splitter-item:last-child,.splitter3 .splitter-item:last-child,.splitter4 .splitter-item:last-child{
+.splitter .splitter-item:last-child{
 right:0;
 left:auto;
 }
-.splitter .splitter-item.active,.splitter3 .splitter-item.active,.splitter4 .splitter-item.active{
+.splitter .splitter-item.active{
 z-index:2
 }
 @media (max-width:991px){
@@ -85,38 +57,12 @@ z-index:2
 width:100%;
 height:50%
 }
-.splitter3 .splitter-item{
-width:100%;
-height:33.333%
-}
-.splitter4 .splitter-item{
-width:100%;
-height:25%
-}
-.splitter .splitter-item:first-child,.splitter3 .splitter-item:first-child,.splitter4 .splitter-item:first-child{
+.splitter .splitter-item:first-child{
 top:0;
 left:0;
 bottom:auto
 }
-.splitter3 .splitter-item:nth-child(2){
-top:33.333%;
-bottom:auto;
-left:0;
-right:0;
-}
-.splitter4 .splitter-item:nth-child(2){
-top:25%;
-bottom:auto;
-left:0;
-right:0;
-}
-.splitter4 .splitter-item:nth-child(3){
-top:auto;
-bottom:25%;
-left:0;
-right:0;
-}
-.splitter .splitter-item:last-child,.splitter3 .splitter-item:last-child,.splitter4 .splitter-item:last-child{
+.splitter .splitter-item:last-child{
 top:auto;
 right:auto;
 left:0;
@@ -4174,7 +4120,6 @@ max-width:100%;
 #partner-page #partner .intro-paragraph img,#homepage-page #partner .intro-paragraph img{
 	height:75%;width:75%;
 }
-
 }
 #homepage-introduction .starwars-container,#story .starwars-container,#whatis .starwars-container,#igdtuw .starwars-container,#khidmat-introduction .starwars-container,#reap-introduction .starwars-container{
 position:relative;
@@ -4890,7 +4835,7 @@ right:0
 left:0;
 bottom:0
 }
-.splitter .splitter-button,.splitter3 .splitter-button,.splitter4 .splitter-button{
+.splitter .splitter-button{
 width:280px;
 height:120px;
 -webkit-transition:color .4s cubic-bezier(.7,0,.3,1);
@@ -4906,10 +4851,10 @@ line-height:1.1;
 padding:18px;
 z-index:1
 }
-.splitter .splitter-item.active .splitter-button,html.no-touch .splitter .splitter-button:hover,.splitter3 .splitter-item.active .splitter-button,html.no-touch .splitter3 .splitter-button:hover,.splitter4 .splitter-item.active .splitter-button,html.no-touch .splitter4 .splitter-button:hover{
+.splitter .splitter-item.active .splitter-button,html.no-touch .splitter .splitter-button:hover{
 color:#cc3300!important
 }
-.splitter .splitter-button:before,.splitter3 .splitter-button:before,.splitter4 .splitter-button:before{
+.splitter .splitter-button:before{
 -webkit-transition:all .4s cubic-bezier(.7,0,.3,1);
 -moz-transition:all .4s cubic-bezier(.7,0,.3,1);
 -o-transition:all .4s cubic-bezier(.7,0,.3,1);
@@ -4928,7 +4873,7 @@ border-bottom-left-radius: 50%;
 display:block;
 content:'';
 }
-html.no-touch .splitter .splitter-item.active .splitter-button:before,html.no-touch .splitter .splitter-item:hover .splitter-button:before,html.no-touch .splitter3 .splitter-item.active .splitter-button:before,html.no-touch .splitter3 .splitter-item:hover .splitter-button:before,html.no-touch .splitter4 .splitter-item.active .splitter-button:before,html.no-touch .splitter4 .splitter-item:hover .splitter-button:before{
+html.no-touch .splitter .splitter-item.active .splitter-button:before,html.no-touch .splitter .splitter-item:hover .splitter-button:before{
 border-radius:50%;
 width:260px;
 height:260px;
@@ -4936,7 +4881,7 @@ top:-89px;
 border-color:#ff6600;
 opacity:1;
 }
-html.no-touch .splitter .splitter-button:hover:before,html.no-touch .splitter3 .splitter-button:hover:before,html.no-touch .splitter4 .splitter-button:hover:before{
+html.no-touch .splitter .splitter-button:hover:before{
 background-color:#ffeb99
 }
 html.no-touch .splitter .splitter-item.active .splitter-button#khidmat:before,html.no-touch .splitter .splitter-item:hover .splitter-button#khidmat:before{
@@ -4967,7 +4912,7 @@ z-index:99999;
 html.no-touch .splitter .splitter-item:hover .splitter-button#khidmat, html.no-touch .splitter .splitter-item:hover .splitter-button#reap{
 color:transparent /*to change the text color of project khidmat and project reap when hover on the splitter-item*/
 }
-.splitter .splitter-item,.splitter3 .splitter-item,.splitter4 .splitter-item{
+.splitter .splitter-item{
 -webkit-transition:background-color .4s cubic-bezier(.7,0,.3,1);
 -moz-transition:background-color .4s cubic-bezier(.7,0,.3,1);
 -o-transition:background-color .4s cubic-bezier(.7,0,.3,1);
@@ -4989,22 +4934,13 @@ background-image:url(../images/bg/17-dark.jpg);
 .splitter .splitter-item#features{
 background-image:url(../images/bg/43-dark.jpeg);
 }
-.splitter3 .splitter-item#a,.splitter4 .splitter-item#a{
-background-image:url(../images/bg/34.jpg);
-}
-.splitter3 .splitter-item#b,.splitter4 .splitter-item#b{
-	background-image:url(../images/bg/34.jpg);
-}
-.splitter3 .splitter-item#c,.splitter4 .splitter-item#c{
-	background-image:url(../images/bg/34.jpg);
-}
-.splitter .splitter-item.active:first-child,.splitter3 .splitter-item.active:first-child,.splitter4 .splitter-item.active:first-child{
+.splitter .splitter-item.active:first-child{
 background-color:#cc3300!important
 }
-.splitter .splitter-item.active:last-child,.splitter3 .splitter-item.active:last-child,.splitter4 .splitter-item.active:last-child{
+.splitter .splitter-item.active:last-child{
 background-color:#cc3300!important
 }
-html.no-touch .splitter .splitter-item:hover,html.no-touch .splitter3 .splitter-item:hover,html.no-touch .splitter4 .splitter-item:hover{
+html.no-touch .splitter .splitter-item:hover{
 background-color:#ff6600;
 transition:all 36s ease-out;
 -webkit-transition:all 36s ease-out;
@@ -5016,28 +4952,28 @@ transition:all 36s ease-out;
 -ms-transform:scale(1.4);
 transform:scale(1.4)
 }
-html.no-touch .splitter .splitter-item:hover .splitter-button,html.no-touch .splitter3 .splitter-item:hover .splitter-button,html.no-touch .splitter4 .splitter-item:hover .splitter-button{
+html.no-touch .splitter .splitter-item:hover .splitter-button{
 color:#993333
 }
-html.no-touch .splitter .splitter-item.active .splitter-button:before,html.no-touch .splitter3 .splitter-item.active .splitter-button:before,html.no-touch .splitter4 .splitter-item.active .splitter-button:before{
+html.no-touch .splitter .splitter-item.active .splitter-button:before{
 background-color:#ffe680!important
 }
 @media (max-width:767px){
-.splitter .splitter-button,.splitter3 .splitter-button,.splitter4 .splitter-button{
+.splitter .splitter-button{
 font-size:22px;
 height:80px
 }
-.splitter .splitter-button:before,.splitter3 .splitter-button:before,.splitter4 .splitter-button:before{
+.splitter .splitter-button:before{
 height:75px;
 border-width:8px;
 position: absolute;
 top: 0px;
 }
-.splitter .splitter-item:first-child .vertical-content,.splitter3 .splitter-item:first-child .vertical-content,.splitter4 .splitter-item:first-child .vertical-content{
+.splitter .splitter-item:first-child .vertical-content{
 vertical-align:bottom;
 padding-bottom:10px
 }
-.splitter .splitter-item:last-child .vertical-content,.splitter3 .splitter-item:last-child .vertical-content,.splitter4 .splitter-item:last-child .vertical-content{
+.splitter .splitter-item:last-child .vertical-content{
 vertical-align:top;
 padding-top:10px
 }
@@ -5854,7 +5790,7 @@ div#text{
 	font-size:10px;
 }
 div#alt_contact{
-float:top;max-width:100%;text-align:center;font-size:10px;padding: 5px 5px 5px 5px;
+float:top;max-width:100%;text-align:center;font-size:15px;padding: 5px 5px 5px 5px;
 }
 .nl-form{
 max-width:100%;margin-top: 20px;margin-bottom:50px;padding: 10px 10px 10px 10px;font-size:20px;
