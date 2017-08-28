@@ -104,26 +104,5 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="map-container">
-
-        <h1 class="map-title">Where we are</h1>
-        <p>
-            101A Clay St. #296 - San Francisco, CA 94111
-        </p>
-        <p>
-            email:
-            <a href="mailto:info@feedmusic.com">info@feedmusic.com</a>
-            -
-            phone:
-            <a href="tel:+446503823282">(650) 382-3282</a>
-        </p>
-
-        <div class="embed-responsive">
-          <div class="embed-responsive-item map">
-
-          </div>
-        </div>
-    </div>
+    </div>    
 </div>
