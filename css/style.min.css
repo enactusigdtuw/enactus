@@ -4327,26 +4327,7 @@ height:0;
 display:none;
 text-align:left
 }
-#meet-team-page .map-container,#feature-page .map-container{
-text-align:center;
-color:#4d4d4d
-}
-#meet-team-page .map-container .embed-responsive,#feature-page .map-container .embed-responsive{
-margin-top:30px;
-padding-bottom:40%;
-min-height:300px
-}
-#meet-team-page .map-container .map-title,#feature-page .map-container .map-title{
-text-transform:uppercase;
-font-size:32px;
-color:#ff9933
-}
-#meet-team-page .map-container a,#feature-page .map-container a{
-color:#ff9933
-}
-#meet-team-page .map-container .map,#feature-page .map-container .map{
-background:#fff
-}
+
 #prototype-page,#schedule-page{
 background-color:#cc3300;
 color:#fff;
@@ -5828,10 +5809,32 @@ div#text{
 	text-align:justify;font-size:20px;
 }
 div#alt_contact{
-	text-align:center;font-size:30px;padding: 70px 50px 50px 50px;font-weight: bold;
+	float:left;max-width:50%;height:100%;text-align:center;font-size:30px;padding: 70px 10px 10px 10px;font-weight: bold;
 }
 .nl-form{
 max-width:40%;float:right;height:100%;background-color: white;border-radius:15px;margin-top: 50px;margin-bottom:80px;padding: 30px 30px 30px 30px;text-align:center;font-size:25px;color:#000099;	
+}
+#schedule-page .map-container{
+text-align:center;font-size:15px;
+font-weight:bold;
+color:#fff;
+padding-bottom: 50px;
+padding-right: 50px;
+}
+#schedule-page .map-container .embed-responsive{
+border-radius:15px;
+min-height:300px
+}
+#schedule-page .map-container .map-title{
+text-align:center;font-size:32px;
+font-weight:bold;
+color:#fff;
+}
+#schedule-page .map-container a{
+color:#ffff00;
+}
+#schedule-page .map-container .map{
+background:#fff
 }
 @media (max-width:991px){
 div#heading{
@@ -5842,9 +5845,15 @@ div#text{
 	font-size:15px;
 }
 div#alt_contact{
-text-align:center;font-size:15px;padding: 5px 5px 5px 5px;
+float:top;max-width:100%;text-align:center;font-size:15px;padding: 5px 5px 5px 5px;
 }
 .nl-form{
 max-width:100%;margin-top: 20px;margin-bottom:50px;padding: 10px 10px 10px 10px;font-size:20px;
+}
+#schedule-page .map-container{
+	padding: 20px 20px 20px 20px;font-size:10px;
+}
+#schedule-page .map-container .map-title{
+font-size:20px;
 }
 }
