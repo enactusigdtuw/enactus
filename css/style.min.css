@@ -4133,7 +4133,7 @@ z-index:40;
 color:white;
 }
 #homepage-introduction .intro-paragraph h1,#story .intro-paragraph h1,#whatis .intro-paragraph h1,#igdtuw .intro-paragraph h1,#khidmat-introduction .intro-paragraph h1,#reap-introduction .intro-paragraph h1,#partner .intro-paragraph h1,#impact .intro-paragraph h1{
-font-weight: 900px;
+font-weight: bold;
 font-size:50px;
 }
 @media (max-width:991px){
@@ -4164,6 +4164,12 @@ max-width:100%;
 }
 #about-page #story .intro-paragraph h1 font:before{
 	content:'\A';
+}
+#partner-page #partner .intro-paragraph h1,#homepage-page #partner .intro-paragraph h1{
+	font-size:25px;
+}
+#partner-page #partner .intro-paragraph p,#homepage-page #partner .intro-paragraph p{
+	font-size:10px;
 }
 }
 #homepage-introduction .starwars-container,#story .starwars-container,#whatis .starwars-container,#igdtuw .starwars-container,#khidmat-introduction .starwars-container,#reap-introduction .starwars-container{
@@ -5841,7 +5847,7 @@ div#heading{
 	padding-bottom: 5px;
 }
 div#text{
-	font-size:15px;
+	font-size:10px;
 }
 div#alt_contact{
 float:top;max-width:100%;text-align:center;font-size:15px;padding: 5px 5px 5px 5px;
