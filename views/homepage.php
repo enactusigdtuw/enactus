@@ -59,8 +59,47 @@
                     <div class="splitter-item" id="gallery">
                         <div class="vertical-container">
                             <div class="vertical-content">
-                                <a href="#/gallery" class="splitter-button" id="gallery">Gallery</a>
-                            </div>
+                                <a href="images/bg/2.jpg" data-fancybox="images" class="splitter-button" id="gallery">Gallery</a>
+                            <a href="images/bg/3.jpg" data-fancybox="images"></a>
+								<a href="images/bg/4.jpg" data-fancybox="images"></a>
+								<a href="images/bg/5.jpg" data-fancybox="images"></a>
+								<a href="images/bg/6.jpg" data-fancybox="images"></a>
+								<a href="images/bg/7.jpg" data-fancybox="images"></a>
+								<a href="images/bg/8.jpg" data-fancybox="images"></a>
+								<a href="images/bg/9.jpg" data-fancybox="images"></a>
+								<a href="images/bg/10.jpg" data-fancybox="images"></a>
+								<a href="images/bg/11.jpg" data-fancybox="images"></a>
+								<a href="images/bg/12.jpg" data-fancybox="images"></a>
+								<a href="images/bg/13.jpg" data-fancybox="images"></a>
+								<a href="images/bg/14.jpg" data-fancybox="images"></a>
+								<a href="images/bg/15.jpg" data-fancybox="images"></a>
+								<a href="images/bg/16.jpg" data-fancybox="images"></a>
+								<a href="images/bg/17.jpg" data-fancybox="images"></a>
+								<a href="images/bg/18.jpg" data-fancybox="images"></a>
+								<a href="images/bg/19.jpg" data-fancybox="images"></a>
+								<a href="images/bg/20.jpg" data-fancybox="images"></a>
+								<a href="images/bg/21.jpg" data-fancybox="images"></a>
+								<a href="images/bg/22.jpg" data-fancybox="images"></a>
+								<a href="images/bg/23.jpg" data-fancybox="images"></a>
+								<a href="images/bg/24.jpg" data-fancybox="images"></a>
+								<a href="images/bg/25.jpg" data-fancybox="images"></a>
+								<a href="images/bg/26.jpg" data-fancybox="images"></a>
+								<a href="images/bg/27.jpg" data-fancybox="images"></a>
+								<a href="images/bg/28.jpg" data-fancybox="images"></a>
+								<a href="images/bg/29.jpg" data-fancybox="images"></a>
+								<a href="images/bg/30.jpg" data-fancybox="images"></a>
+								<a href="images/bg/31.jpg" data-fancybox="images"></a>
+								<a href="images/bg/32.jpg" data-fancybox="images"></a>
+								<a href="images/bg/33.jpg" data-fancybox="images"></a>
+								<a href="images/bg/34.jpg" data-fancybox="images"></a>
+								<a href="images/bg/35.jpg" data-fancybox="images"></a>
+								<a href="images/bg/36.jpg" data-fancybox="images"></a>
+								<a href="images/bg/37.jpg" data-fancybox="images"></a>
+								<a href="images/bg/38.jpg" data-fancybox="images"></a>
+								<a href="images/bg/39.jpg" data-fancybox="images"></a>
+								<a href="images/bg/40.jpg" data-fancybox="images"></a>
+								<a href="images/bg/41.jpg" data-fancybox="images"></a>
+								</div>
                         </div>
                     </div>
                     <div class="splitter-item" id="features">
