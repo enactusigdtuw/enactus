@@ -13,10 +13,8 @@
                 <div class="videobg-container"></div>
                 <div class="starwars-container">
                     <div class="starwars-wrapper">
-                        <p>LIVE</p>
-                        <p>to CREATE </p>
-                        <p>what </p>
-						<p>OUTLIVES you </p>
+                        <p>LIVE to CREATE </p>
+                        <p>what OUTLIVES you </p>
                         <p><br><br></p>
                         <p style="white-space: normal"><strong>ENACTUS IGDTUW</strong></p>
                     </div>
