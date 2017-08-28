@@ -14,7 +14,7 @@
 				</div>
 				<div class="map-container">
         <h1 class="map-title">WHERE WE ARE</h1>
-        <a href="https://www.google.co.in/maps/place/Indira+Gandhi+Delhi+Technical+University+for+Women/@28.665236,77.2301802,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfd0683919c3b:0xf5fc331b74c2b9e2!8m2!3d28.665236!4d77.2323689">Indira Gandhi Delhi Technical University for Women</a>
+        <a href="https://www.google.co.in/maps/place/Indira+Gandhi+Delhi+Technical+University+for+Women/@28.665236,77.2301802,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfd0683919c3b:0xf5fc331b74c2b9e2!8m2!3d28.665236!4d77.2323689" target="_blank" >Indira Gandhi Delhi Technical University for Women</a>
         <p>Kashmere Gate, Opp. St. James Church<br>New Delhi, Delhi 110006</p>
         <div class="embed-responsive">
           <div class="embed-responsive-item map">
