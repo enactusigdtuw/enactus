@@ -4171,6 +4171,10 @@ max-width:100%;
 #partner-page #partner .intro-paragraph p,#homepage-page #partner .intro-paragraph p{
 	font-size:10px;
 }
+#partner-page #partner .intro-paragraph img,#homepage-page #partner .intro-paragraph img{
+	height:75%;width:75%;
+}
+
 }
 #homepage-introduction .starwars-container,#story .starwars-container,#whatis .starwars-container,#igdtuw .starwars-container,#khidmat-introduction .starwars-container,#reap-introduction .starwars-container{
 position:relative;
